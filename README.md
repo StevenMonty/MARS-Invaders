@@ -29,5 +29,5 @@ was modified by [Jarrett Billingsley](https://github.com/jarrettbillingsley) for
 and Assembly Language at the University of Pittsburgh. The MARS .jar file is
 included in this repository, all credits go to Jarrett.
 
->Steven Montalbano © 2019
+>© Steven Montalbano 2019
 >University of Pittsburgh
