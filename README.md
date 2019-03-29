@@ -1,4 +1,4 @@
-# MIPS Space Invaders
+# MARS Invaders
 
 ![](https://github.com/StevenMonty/MIPS-Space-Invaders/blob/master/gamePlay.gif)
 
@@ -8,7 +8,7 @@ This particular assembly project spans multiple ```.asm``` files. Each game enti
 The game features three difficulty modes: Easy, Medium, and Hard. In the Easy game mode, the enemy sprites travel toward the player at a rate of 12 FPS. In Medium the enemies move 10 FPS, and in Hard mode, the enemies move at 8 FPS.
 
 ### Game Mechanics
-The game features 5 enemy sprites that spawn from the upper bound of the screen. The enemies starting x position is randomly generated via the MIPS random int syscall, the enemies x positon is then locked and they advance toward the player, along the y axis. The player ship moves along the x and y axis, in responce to the arrow keys on the keyboard. The B button is used to fire a bullet from the tip of the player ship. The bullet travels upward, locked in its x coordinate. Upon collision with an enemy ship, the ship and bullet both go inactive and an explosion animation flashes where the enemy was destroyed.
+The game features 5 enemy sprites that spawn from the upper bound of the screen. The enemies starting x position is randomly generated via the MIPS random int syscall, the enemies x position is then locked and they advance toward the player, along the y axis. The player ship moves along the x and y axis, in responce to the arrow keys on the keyboard. The B button is used to fire a bullet from the tip of the player ship. The bullet travels upward, locked in its x coordinate. Upon collision with an enemy ship, the ship and bullet both go inactive and an explosion animation flashes where the enemy was destroyed. If an enemy reaches the bottom the playable screen, the enemy is destroyed the players loses one of their remaining lives. If and enemy and the player collide at any point,
 
 
 ### Execution
@@ -28,3 +28,6 @@ MARS is the MIPS processor simulator and IDE. The version used for this project
 was modified by [Jarrett Billingsley](https://github.com/jarrettbillingsley) for use in CS 447 - Computer Organization
 and Assembly Language at the University of Pittsburgh. The MARS .jar file is
 included in this repository, all credits go to Jarrett.
+
+>Steven Montalbano © 2019
+>University of Pittsburgh
