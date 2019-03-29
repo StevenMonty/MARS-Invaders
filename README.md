@@ -1,5 +1,8 @@
 # MIPS Space Invaders
 
+Inline-style:
+![alt text](https://github.com/StevenMonty/MIPS-Space-Invaders/blob/master/gamePlay.gif)
+
 This particular assembly project spans multiple ```.asm``` files. Each game entity contains a ```controller``` file, a ```view``` file, and a ```model``` file. The main game driver itself runs in an infinite loop from the ```main.asm``` file.
 
 ### Game Modes
