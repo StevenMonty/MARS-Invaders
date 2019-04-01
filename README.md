@@ -23,7 +23,7 @@ Once the Mars IDE has loaded, open the ```main.asm``` file. You will have to ass
 
 Once the files have been successfully assembled, you are ready to play the game. Click the green 'Play' button to start the game. In order to display the game screen, you will have to go to Tools > Keypad and LED Display Simulator. Once the LED Display window has opened, you will have to click 'Connect to MIPS'. Once you've done that, you are ready to play.
 
-### Note About Mars Version Used
+### Note About MARS Version Used
 MARS is the MIPS processor simulator and IDE. The version used for this project
 was modified by [Jarrett Billingsley](https://github.com/jarrettbillingsley) for use in CS 447 - Computer Organization
 and Assembly Language at the University of Pittsburgh. The MARS .jar file is
